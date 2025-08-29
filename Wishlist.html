@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Wishlist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1> ❤️</h1>
+  </header>
+
+  <!-- Form to add new items -->
+  <section class="add-form">
+    <input type="text" id="name" placeholder="Product Name" />
+    <input type="number" id="price" placeholder="Price" />
+    <input type="text" id="img" placeholder="Image URL" />
+    <button onclick="addToWishlist()">Add to Wishlist</button>
+  </section>
+
+  <!-- Wishlist display -->
+  <main>
+    <div class="wishlist-container" id="wishlist"></div>
+  </main>
+
+  <script src="link.js"></script>
+</body>
+</html>
