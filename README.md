@@ -1,2 +1,0 @@
-# eCommerceWebsite
-Ardent Inturnship - BPPIMT
