@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding-top: 70px;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+/* Logo */
+.navbar-brand {
+    color: black;
+}
+
+/* Search box */
+.search-type {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-icon {
+    background: white;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+
+/* Contact link */
+.nav-contact {
+    font-size: 16px;
+    color: black;
+    margin-left: 15px;
+}
+
+.nav-contact:hover {
+    color: red !important;
+}
+
+/* Toggler icon */
+.navbar-toggler {
+    border: none;
+    font-size: 22px;
+}
+/* ----------FOOTER CSS START---------- */
+.footer {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+    height: auto;
+    width: 100%;
+}
+
+.footopt {
+    font-size: 18px;
+}
+
+.footopt:hover {
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.email-icon {
+    border: none;
+    height: 40px;
+    width: 50px;
+}
+
+.footer-logo {
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    color: white;
+}
+
+.footer-logo:hover {
+    color: rgb(255, 39, 39);
+    font-size: 30px;
+}
+
+/* ----------FOOTER CSS END---------- */
+
+/* -----FOR ALL THE ANCHOR TAG----- */
+.anchor {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* -----FOR ALL THE ANCHOR TAG----- */

@@ -1,0 +1,240 @@
+/* ----------NAV-BAR CSS START---------- */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding-top: 70px;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+/* Logo */
+.navbar-brand {
+    color: black;
+}
+
+/* Search box */
+.search-type {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-icon {
+    background: white;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+
+/* Contact link */
+.nav-contact {
+    font-size: 16px;
+    color: black;
+    margin-left: 15px;
+}
+
+.nav-contact:hover {
+    color: red !important;
+}
+
+/* Toggler icon */
+.navbar-toggler {
+    border: none;
+    font-size: 22px;
+}
+
+/* ----------NAV-BAR CSS END---------- */
+
+/* ----------SLIDER CSS START---------- */
+.home-slider {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* ----------SLIDER CSS END---------- */
+
+/* ----------HOME-1ST CSS START---------- */
+.optn {
+    font-size: 2rem;
+    color: rgba(255, 0, 0, 0.7);
+    display: block;
+    margin: 8px 0;
+}
+
+.optn:hover {
+    font-size: 2.2rem;
+    color: red;
+    background-color: #cccccc69;
+    border-radius: 5px;
+}
+
+.first-opt {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* ----------HOME-1ST CSS END---------- */
+
+/* ----------3-Options CSS START---------- */
+.sale {
+    text-decoration: none;
+    color: black;
+}
+
+.sale:hover {
+    color: red;
+}
+
+/* ----------3-Options CSS END---------- */
+
+/* ----------DESIGN*4 CSS END---------- */
+.details {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 0, 0, 0.700);
+}
+
+.details:hover {
+    color: red;
+}
+
+/* ----------DESIGN*4 FOOTER CSS END---------- */
+
+/* ----------HOME-OFFER CSS START---------- */
+.opt {
+    color: black;
+    display: block;
+    margin: 10px 0;
+}
+
+.opt:hover {
+    color: red;
+}
+
+.home-offer {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
+
+/* ----------HOME-OFFER CSS END---------- */
+
+/* ----------before FOOTER CSS START---------- */
+.offer-end {
+    margin-top: -60px;
+    background-color: rgb(235, 235, 235);
+    width: 200px !important;
+    height: 200px;
+}
+
+.view {
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.700);
+}
+
+.view:hover {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+
+/* ----------before FOOTER CSS END---------- */
+
+/* ----------FOOTER CSS START---------- */
+.footer {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+    height: auto;
+    width: 100%;
+}
+
+.footopt {
+    font-size: 18px;
+}
+
+.footopt:hover {
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.email-icon {
+    border: none;
+    height: 40px;
+    width: 50px;
+}
+
+.footer-logo {
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    color: white;
+}
+
+.footer-logo:hover {
+    color: rgb(255, 39, 39);
+    font-size: 30px;
+}
+
+/* ----------FOOTER CSS END---------- */
+
+/* -----FOR ALL THE ANCHOR TAG----- */
+.anchor {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* -----FOR ALL THE ANCHOR TAG----- */
+
+/* -----FOR THE SCROOL-UP */
+.scroll-up {
+    position: fixed;
+    bottom: 20px;
+    right: 24px;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0px 8px;
+    margin: 0px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.scroll-up:hover {
+    font-size: 32px;
+    padding: 0px 9px;
+    color: black;
+}
+/* -----FOR THE SCROLL-UP----- */
+
+/* -----FOR ALL THE ANIMATION----- */
+.todo{
+    /* opacity: 0; */
+    scale: 0.7;
+    transition: 900ms ease;
+}
+
+.todo.show{
+    /* opacity: 1; */
+    scale: 1;
+}
+
+/* -----FOR ALL THE ANIMATION----- */
